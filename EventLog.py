@@ -3,20 +3,6 @@ import datetime
 import os
 from datetime import datetime
 
-# check = os.path.isfile(log_file_path())
-# print(check)
-# (mode, ino, dev, nlink, uid, gid, size, atime, mtime, ctime) = os.stat('C:\\Users\\dell\\Documents\\Capstone\\Logs\\Log_20230218.txt')
-# print(datetime.datetime.fromtimestamp(ctime))
-# print(os.stat('C:\\Users\\dell\\Documents\\Capstone\\Logs\\Log_20230218.txt'))
-
-# print(datetime.today().strftime('%Y-%m-%d'))
-# create_timestamp = os.stat(log_file_path()).st_ctime
-# print(datetime.fromtimestamp(create_timestamp))
-# print("AutomatePDFClassification Started: "+ str(datetime.today().strftime('%Y-%m-%d %H:%M:%S')))
-# file = open('C:\\Users\\dell\\Documents\\Capstone\\test.txt',"a")
-# file.write("AutomatePDFClassification Started: "+str(datetime.today().strftime('%Y-%m-%d %H:%M:%S'))+"\n")
-# file.write(datetime.today().strftime('%Y-%m-%d %H:%M:%S'))
-# file.close()
 class EventLogger:
     @staticmethod
     def write(message):
